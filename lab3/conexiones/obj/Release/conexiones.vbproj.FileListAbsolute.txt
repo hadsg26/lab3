@@ -1,0 +1,9 @@
+C:\Users\Setgio\Desktop\WebApplication3\conexiones\bin\Release\conexiones.dll
+C:\Users\Setgio\Desktop\WebApplication3\conexiones\bin\Release\conexiones.pdb
+C:\Users\Setgio\Desktop\WebApplication3\conexiones\bin\Release\conexiones.xml
+C:\Users\Setgio\Desktop\WebApplication3\conexiones\obj\Release\conexiones.Resources.resources
+C:\Users\Setgio\Desktop\WebApplication3\conexiones\obj\Release\conexiones.vbproj.GenerateResource.Cache
+C:\Users\Setgio\Desktop\WebApplication3\conexiones\obj\Release\conexiones.vbproj.CoreCompileInputs.cache
+C:\Users\Setgio\Desktop\WebApplication3\conexiones\obj\Release\conexiones.dll
+C:\Users\Setgio\Desktop\WebApplication3\conexiones\obj\Release\conexiones.xml
+C:\Users\Setgio\Desktop\WebApplication3\conexiones\obj\Release\conexiones.pdb
