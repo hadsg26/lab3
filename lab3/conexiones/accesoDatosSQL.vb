@@ -1,7 +1,9 @@
-﻿Imports System.Data.SqlClient
+﻿Imports System.Data.OleDb
+Imports System.Data.SqlClient
 
 Public Class accesoDatosSQL
     Private Shared conexion As New SqlConnection
+    Private Shared conexionOleDb As New OleDbConnection
     Private Shared comando As New SqlCommand
 
     Public Shared Function conectar() As String
@@ -75,9 +77,73 @@ Public Class accesoDatosSQL
     End Function
 
     Public Shared Function obtenerUsuario(ByVal email As String) As SqlDataReader
-        Dim st = "select confirmado, pass from usuarios where email='" & email & "'"
+        Dim st = "select confirmado, pass, tipo from usuarios where email='" & email & "'"
         comando = New SqlCommand(st, conexion)
         Return (comando.ExecuteReader())
+    End Function
+
+    Public Shared Function obtenerAsignaturasMatriculado(ByVal email As String) As SqlDataReader
+        Dim st = "select codigoAsig from EstudiantesGrupo inner join GruposClase on EstudiantesGrupo.Grupo = GruposClase.codigo where email='" & email & "'"
+        comando = New SqlCommand(st, conexion)
+        Return (comando.ExecuteReader())
+    End Function
+
+    Public Shared Function obtenerTareasGenericas(ByVal codigo As String, ByVal email As String) As DataSet
+        Dim dapAsign As SqlDataAdapter
+        Dim dstAsign As DataSet
+        Dim st As String
+        st = "select * from TareasGenericas where codasig='" & codigo & "' and explotacion = 1 and codigo not in (Select codtarea from EstudiantesTareas where email = '" & email & "')"
+        comando = New SqlCommand(st, conexion)
+        dapAsign = New SqlDataAdapter(comando)
+        dstAsign = New DataSet()
+        dapAsign.Fill(dstAsign, "tabla")
+        Return dstAsign
+    End Function
+
+    Public Shared Function obtenerHorasEstimadas(ByVal tarea As String) As Integer
+        Dim st = "select HEstimadas from tareasgenericas where codigo ='" & tarea & "'"
+        comando = New SqlCommand(st, conexion)
+        Dim RS As SqlDataReader
+        RS = comando.ExecuteReader()
+        Dim devolver As Integer
+
+        While RS.Read
+            devolver = RS.Item("HEstimadas")
+        End While
+        RS.Close()
+
+        Return (devolver)
+    End Function
+
+    Public Shared Function obtenerTareasEstudiante(ByVal email As String) As SqlDataAdapter
+
+        Dim dapAsign As SqlDataAdapter
+        Dim st As String
+        st = "select * from EstudiantesTareas where email='" & email & "'"
+        comando = New SqlCommand(st, conexion)
+        dapAsign = New SqlDataAdapter(comando)
+        Return dapAsign
+    End Function
+
+    Public Shared Function posibilidadDeInstanciar(ByVal tarea As String) As Boolean
+        Dim st = "select count(*) from estudiantestareas where codtarea ='" & tarea & "'"
+        comando = New SqlCommand(st, conexion)
+        Dim RS As Integer
+        RS = comando.ExecuteScalar()
+        Dim devolver As Boolean = True
+        If RS > 0 Then
+            devolver = False
+        End If
+        Return devolver
+    End Function
+
+    Public Shared Function obtenerTareasAsignatura(ByVal asignatura As String) As SqlDataAdapter
+        Dim dapAsign As SqlDataAdapter
+        Dim st As String
+        st = "select * from TareasGenericas where codasig='" & asignatura & "'"
+        comando = New SqlCommand(st, conexion)
+        dapAsign = New SqlDataAdapter(comando)
+        Return dapAsign
     End Function
 
 End Class

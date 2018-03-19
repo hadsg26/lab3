@@ -17,3 +17,13 @@ C:\Users\Setgio\Desktop\WebApplication3\conexiones\obj\Debug\conexiones.vbproj.C
 C:\Users\Setgio\Desktop\WebApplication3\conexiones\obj\Debug\conexiones.dll
 C:\Users\Setgio\Desktop\WebApplication3\conexiones\obj\Debug\conexiones.xml
 C:\Users\Setgio\Desktop\WebApplication3\conexiones\obj\Debug\conexiones.pdb
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\bin\Debug\conexiones.dll
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\bin\Debug\conexiones.pdb
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\bin\Debug\conexiones.xml
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Debug\conexiones.vbprojResolveAssemblyReference.cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Debug\conexiones.Resources.resources
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Debug\conexiones.vbproj.GenerateResource.Cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Debug\conexiones.vbproj.CoreCompileInputs.cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Debug\conexiones.dll
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Debug\conexiones.xml
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Debug\conexiones.pdb

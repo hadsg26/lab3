@@ -11,3 +11,16 @@ C:\Users\Setgio\Desktop\WebApplication3\ClassLibrary1\obj\Release\clases.vbproj.
 C:\Users\Setgio\Desktop\WebApplication3\ClassLibrary1\obj\Release\clases.dll
 C:\Users\Setgio\Desktop\WebApplication3\ClassLibrary1\obj\Release\clases.xml
 C:\Users\Setgio\Desktop\WebApplication3\ClassLibrary1\obj\Release\clases.pdb
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\bin\Release\clases.dll
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\bin\Release\clases.pdb
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\bin\Release\clases.xml
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\bin\Release\conexiones.dll
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\bin\Release\conexiones.pdb
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\bin\Release\conexiones.xml
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\obj\Release\clases.vbprojResolveAssemblyReference.cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\obj\Release\clases.Resources.resources
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\obj\Release\clases.vbproj.GenerateResource.Cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\obj\Release\clases.vbproj.CoreCompileInputs.cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\obj\Release\clases.dll
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\obj\Release\clases.xml
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\ClassLibrary1\obj\Release\clases.pdb

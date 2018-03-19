@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="HADS26-TAREASConnectionString-Web.config Connection String" description="HADS26-TAREASConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=tcp:hads26.database.windows.net,1433;Initial Catalog=HADS26-TAREAS;User ID=HADS26;Password=InigoSergio26" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Setgio\\Documents\\GitHub\\labo3\\lab3\\WebApplication3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HADS26-TAREASConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
