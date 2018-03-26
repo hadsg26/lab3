@@ -16,3 +16,4 @@ C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Release\conexiones.vb
 C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Release\conexiones.dll
 C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Release\conexiones.xml
 C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Release\conexiones.pdb
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\conexiones\obj\Release\conexiones.vbprojResolveAssemblyReference.cache

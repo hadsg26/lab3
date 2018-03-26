@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Tarea Codigo="GIS-Lab4">
+    <Descripcion>ddfdfdf</Descripcion>
+    <CodAsig>HAS</CodAsig>
+    <HEstimadas>6</HEstimadas>
+    <Explotacion>true</Explotacion>
+    <TipoTarea>Laboratorio</TipoTarea>
+  </Tarea>
+  <Tarea Codigo="HAS08-Lab10">
+    <Descripcion>aaaa</Descripcion>
+    <CodAsig>HAS</CodAsig>
+    <HEstimadas>10</HEstimadas>
+    <Explotacion>true</Explotacion>
+    <TipoTarea>Laboratorio</TipoTarea>
+  </Tarea>
+  <Tarea Codigo="HAS08-Lab12">
+    <Descripcion>hhah</Descripcion>
+    <CodAsig>HAS</CodAsig>
+    <HEstimadas>5</HEstimadas>
+    <Explotacion>false</Explotacion>
+    <TipoTarea>as</TipoTarea>
+  </Tarea>
+  <Tarea Codigo="HAS08-Test5">
+    <Descripcion>Test 5 de la asignatura</Descripcion>
+    <CodAsig>HAS</CodAsig>
+    <HEstimadas>3</HEstimadas>
+    <Explotacion>true</Explotacion>
+    <TipoTarea>examen dificil</TipoTarea>
+  </Tarea>
+  <Tarea Codigo="HAS11-LAB4">
+    <Descripcion>lalalalal</Descripcion>
+    <CodAsig>HAS</CodAsig>
+    <HEstimadas>20</HEstimadas>
+    <Explotacion>true</Explotacion>
+    <TipoTarea>Laboratorio</TipoTarea>
+  </Tarea>
+  <Tarea Codigo="jeje">
+    <Descripcion>hola =)</Descripcion>
+    <CodAsig>HAS</CodAsig>
+    <HEstimadas>45</HEstimadas>
+    <TipoTarea>Ejercicio</TipoTarea>
+  </Tarea>
+  <Tarea Codigo="Lab4">
+    <Descripcion>lelelelelelelel</Descripcion>
+    <CodAsig>HAS</CodAsig>
+    <HEstimadas>12</HEstimadas>
+    <Explotacion>true</Explotacion>
+    <TipoTarea>Laboratorio</TipoTarea>
+  </Tarea>
+  <Tarea Codigo="Test1">
+    <Descripcion>666 preguntas</Descripcion>
+    <CodAsig>HAS</CodAsig>
+    <HEstimadas>1</HEstimadas>
+    <Explotacion>false</Explotacion>
+    <TipoTarea>Examen</TipoTarea>
+  </Tarea>
+</NewDataSet>

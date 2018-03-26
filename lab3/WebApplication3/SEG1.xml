@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tabla>
+    <Codigo>SEG08-Test12</Codigo>
+    <Descripcion>Test 12 de la asignatura</Descripcion>
+    <CodAsig>SEG</CodAsig>
+    <HEstimadas>3</HEstimadas>
+    <Explotacion>false</Explotacion>
+    <TipoTarea>Examen</TipoTarea>
+  </tabla>
+  <tabla>
+    <Codigo>SEG08-Trabajo20</Codigo>
+    <Descripcion>Tareas del trabajo 20 de la asignatura</Descripcion>
+    <CodAsig>SEG</CodAsig>
+    <HEstimadas>10</HEstimadas>
+    <Explotacion>false</Explotacion>
+    <TipoTarea>Trabajo</TipoTarea>
+  </tabla>
+</NewDataSet>

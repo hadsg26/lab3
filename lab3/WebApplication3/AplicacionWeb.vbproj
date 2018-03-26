@@ -132,11 +132,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Alumno.aspx" />
+    <Content Include="ExportarTareas.aspx" />
+    <Content Include="HAS.xml" />
+    <Content Include="ImportarEnDS.aspx" />
+    <Content Include="ImportarTareas.aspx" />
     <Content Include="InsertarTarea.aspx" />
     <Content Include="InstanciarTarea.aspx" />
     <Content Include="Profesor.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="SEG.xml" />
     <Content Include="TareasAlumno.aspx" />
     <Content Include="TareasProfesor.aspx" />
     <Content Include="Web.config" />
@@ -144,6 +149,7 @@
     <Content Include="Inicio.aspx" />
     <Content Include="CambiarPassword.aspx" />
     <Content Include="Confirmacion.aspx" />
+    <Content Include="XSLTFile.xsl" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alumno.aspx.designer.vb">
@@ -151,6 +157,27 @@
     </Compile>
     <Compile Include="Alumno.aspx.vb">
       <DependentUpon>Alumno.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ExportarTareas.aspx.designer.vb">
+      <DependentUpon>ExportarTareas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportarTareas.aspx.vb">
+      <DependentUpon>ExportarTareas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ImportarEnDS.aspx.designer.vb">
+      <DependentUpon>ImportarEnDS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImportarEnDS.aspx.vb">
+      <DependentUpon>ImportarEnDS.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ImportarTareas.aspx.designer.vb">
+      <DependentUpon>ImportarTareas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImportarTareas.aspx.vb">
+      <DependentUpon>ImportarTareas.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="InsertarTarea.aspx.designer.vb">
@@ -260,6 +287,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <Content Include="packages.config" />
+    <None Include="tareas.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

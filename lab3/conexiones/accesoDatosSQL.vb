@@ -146,4 +146,15 @@ Public Class accesoDatosSQL
         Return dapAsign
     End Function
 
+    Public Shared Function obtenerTareas() As SqlDataAdapter
+        Dim dapAsign As SqlDataAdapter
+        Dim st As String
+        st = "select * from TareasGenericas"
+        comando = New SqlCommand(st, conexion)
+        dapAsign = New SqlDataAdapter(comando)
+        Return dapAsign
+    End Function
+
+
+
 End Class

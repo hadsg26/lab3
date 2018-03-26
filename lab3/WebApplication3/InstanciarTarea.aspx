@@ -31,7 +31,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="hreales" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="hreales" ErrorMessage="*"></asp:RequiredFieldValidator>
-        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="hreales" ErrorMessage="Tiene que ser un número de 0 a 99" ValidationExpression="\d{2}"></asp:RegularExpressionValidator>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="hreales" ErrorMessage="Tiene que ser un número " ValidationExpression="\d*"></asp:RegularExpressionValidator>
         <br />
         <asp:Button ID="crearTarea" runat="server" Text="Crear Tarea" />
         <div>

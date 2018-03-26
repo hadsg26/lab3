@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Tareas>
+  <Tarea Codigo="hola">
+    <Descripcion>M</Descripcion>
+    <HEstimadas>3</HEstimadas>
+    <Explotacion>true</Explotacion>
+    <TipoTarea>rapida</TipoTarea>
+  </Tarea>
+  <Tarea Codigo="ISO-Lab1">
+    <Descripcion>prueba</Descripcion>
+    <HEstimadas>12</HEstimadas>
+    <Explotacion>true</Explotacion>
+    <TipoTarea>Ejercicio</TipoTarea>
+  </Tarea>
+</Tareas>

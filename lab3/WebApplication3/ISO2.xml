@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tabla Codigo="hola">
+    <Descripcion>M</Descripcion>
+    <CodAsig>ISO</CodAsig>
+    <HEstimadas>3</HEstimadas>
+    <Explotacion>true</Explotacion>
+    <TipoTarea>rapida</TipoTarea>
+  </tabla>
+  <tabla Codigo="ISO-Lab1">
+    <Descripcion>prueba</Descripcion>
+    <CodAsig>ISO</CodAsig>
+    <HEstimadas>12</HEstimadas>
+    <Explotacion>true</Explotacion>
+    <TipoTarea>Ejercicio</TipoTarea>
+  </tabla>
+</NewDataSet>
