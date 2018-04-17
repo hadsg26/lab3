@@ -31,7 +31,7 @@
         <asp:Button ID="Button1" runat="server" Text="Importar (XMLD)" />
         <asp:Xml ID="Xml1" runat="server"></asp:Xml>
         <br />
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Profesor.aspx">Menu Profesor</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/privado/profesor/Profesor.aspx">Menu Profesor</asp:HyperLink>
         <br />
         <br />
     </form>

@@ -37,7 +37,7 @@
         <br />
         <asp:Label ID="fichero" runat="server"></asp:Label>
         <br />
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Profesor.aspx">Menu Profesor</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/privado/profesor/Profesor.aspx">Menu Profesor</asp:HyperLink>
     </form>
 </body>
 </html>

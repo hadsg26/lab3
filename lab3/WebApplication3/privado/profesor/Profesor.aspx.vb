@@ -8,4 +8,8 @@
     Protected Sub Menu1_MenuItemClick(sender As Object, e As MenuEventArgs)
 
     End Sub
+
+    Protected Sub Menu1_MenuItemClick1(sender As Object, e As MenuEventArgs)
+
+    End Sub
 End Class

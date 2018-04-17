@@ -21,7 +21,6 @@ Public Class accesoDatosSQL
     End Sub
 
     Public Shared Function insertar(ByVal email As String, ByVal nombre As String, ByVal apellidos As String, ByVal numConfir As Integer, ByVal password As String, ByVal rol As String) As String
-
         Dim st = "insert into usuarios values ('" & email & "','" & nombre & "','" & apellidos & "', " & numConfir & " ,0, '" & password & "' , '" & rol & "')"
         Dim numregs As Integer
         comando = New SqlCommand(st, conexion)
@@ -155,6 +154,23 @@ Public Class accesoDatosSQL
         Return dapAsign
     End Function
 
+    Public Shared Function banear(ByVal email As String) As Boolean
+        Dim st = "update usuarios set confirmado = 0 where email = '" & email & "' "
+        Dim numregs As Integer
+        Dim st2 = "update usuarios set numconfir = 0 where email = '" & email & "' "
+        comando = New SqlCommand(st, conexion)
+        Try
+            numregs = comando.ExecuteNonQuery()
+            comando = New SqlCommand(st2, conexion)
+            comando.ExecuteNonQuery()
+        Catch ex As Exception
+            Return False
+        End Try
 
-
+        If numregs = 1 Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
 End Class

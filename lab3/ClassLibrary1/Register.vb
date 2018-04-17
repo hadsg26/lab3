@@ -14,8 +14,10 @@ Public Class Register
     Function registrar(ByVal email As String, ByVal nombre As String, ByVal apellidos As String, ByVal NumConf As Integer, ByVal rol As String, ByVal pass As String) As Boolean
         If enviareMail(email, NumConf) = True Then
             insertar(email, nombre, apellidos, NumConf, rol, pass)
+            Return True
+        Else
+            Return False
         End If
-        Return True
     End Function
 
 
@@ -26,7 +28,7 @@ Public Class Register
             Dim enlace As String
             enlace = "<a href = 'https://hads1826.azurewebsites.net/Confirmacion.aspx?mbr=" & email & "&numConf=" & numConf & "' > este link</a>"
             'Direccion de origen 
-            Dim from_address As New MailAddress("@ikasle.ehu.eus", "HADS GRUPO 26")
+            Dim from_address As New MailAddress("scavia002@ikasle.ehu.eus", "HADS GRUPO 26")
             'Direccion de destino 
             Dim to_address As New MailAddress(email)
             'Password de la cuenta  
@@ -54,6 +56,8 @@ Public Class Register
             'Se envia el correo  
             smtp.Send(Message)
         Catch e As Exception
+            MsgBox(e.StackTrace)
+            MsgBox(e.Message)
             Return False
         End Try
         Return True

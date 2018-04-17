@@ -5,6 +5,7 @@ Public Class TareasAlumno
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         DropDownList1.AutoPostBack = True
+        conectar()
         If Not (IsPostBack) Then
             Dim RS As SqlDataReader
             RS = obtenerAsignaturasMatriculado(Session("email"))
@@ -122,6 +123,7 @@ Public Class TareasAlumno
 
     Protected Sub HyperLink1_Click(sender As Object, e As EventArgs) Handles HyperLink1.Click
         Session.Abandon()
-        Response.Redirect("Inicio.aspx")
+        System.Web.Security.FormsAuthentication.SignOut()
+        Response.Redirect("../../publico/Inicio.aspx")
     End Sub
 End Class

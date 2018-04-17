@@ -1,5 +1,6 @@
 ﻿Imports System.Collections.Specialized.BitVector32
 Imports System.Data.SqlClient
+Imports System.Security.Cryptography
 Imports conexiones.accesoDatosSQL
 
 Public Class Login

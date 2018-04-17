@@ -11,6 +11,7 @@
 
     Protected Sub HyperLink1_Click(sender As Object, e As EventArgs) Handles HyperLink1.Click
         Session.Abandon()
-        Response.Redirect("Inicio.aspx")
+        System.Web.Security.FormsAuthentication.SignOut()
+        Response.Redirect("../../publico/Inicio.aspx")
     End Sub
 End Class

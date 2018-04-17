@@ -21,12 +21,12 @@
         <asp:TextBox ID="password" runat="server" TextMode="Password"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="password" ErrorMessage="*"></asp:RequiredFieldValidator>
         <br />
-        <asp:Button ID="entrar" runat="server" Text="Entrar" />
+        <asp:Button ID="entrar" runat="server" Text="Entrar" style="height: 26px" />
     
         <br />
-        <asp:HyperLink ID="RegistroHyper" runat="server" NavigateUrl="~/Registro.aspx">Registrarse</asp:HyperLink>
+        <asp:HyperLink ID="RegistroHyper" runat="server" NavigateUrl="~/publico/Registro.aspx">Registrarse</asp:HyperLink>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:HyperLink ID="cambiarConHyper" runat="server" NavigateUrl="~/CambiarPassword.aspx">Cambiar contraseña</asp:HyperLink>
+        <asp:HyperLink ID="cambiarConHyper" runat="server" NavigateUrl="~/publico/CambiarPassword.aspx">Cambiar contraseña</asp:HyperLink>
     
         <br />
         <asp:Label ID="resultado" runat="server"></asp:Label>

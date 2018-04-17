@@ -131,66 +131,76 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Alumno.aspx" />
-    <Content Include="ExportarTareas.aspx" />
-    <Content Include="HAS.xml" />
-    <Content Include="ImportarEnDS.aspx" />
-    <Content Include="ImportarTareas.aspx" />
-    <Content Include="InsertarTarea.aspx" />
-    <Content Include="InstanciarTarea.aspx" />
-    <Content Include="Profesor.aspx" />
+    <Content Include="privado\admin\Banear.aspx" />
+    <Content Include="privado\alumno\Alumno.aspx" />
+    <Content Include="privado\profesor\vadillo\ExportarTareas.aspx" />
+    <Content Include="privado\profesor\vadillo\HAS.xml" />
+    <Content Include="privado\profesor\vadillo\ImportarEnDS.aspx" />
+    <Content Include="privado\profesor\vadillo\ImportarTareas.aspx" />
+    <Content Include="privado\profesor\InsertarTarea.aspx" />
+    <Content Include="privado\alumno\InstanciarTarea.aspx" />
+    <Content Include="privado\profesor\Profesor.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="SEG.xml" />
-    <Content Include="TareasAlumno.aspx" />
-    <Content Include="TareasProfesor.aspx" />
-    <Content Include="Web.config" />
-    <Content Include="Registro.aspx" />
-    <Content Include="Inicio.aspx" />
-    <Content Include="CambiarPassword.aspx" />
-    <Content Include="Confirmacion.aspx" />
+    <Content Include="privado\profesor\vadillo\SEG.xml" />
+    <Content Include="privado\alumno\TareasAlumno.aspx" />
+    <Content Include="privado\profesor\TareasProfesor.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="publico\Registro.aspx" />
+    <Content Include="publico\Inicio.aspx" />
+    <Content Include="publico\CambiarPassword.aspx" />
+    <Content Include="publico\Confirmacion.aspx" />
     <Content Include="XSLTFile.xsl" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alumno.aspx.designer.vb">
+    <Compile Include="privado\admin\Banear.aspx.designer.vb">
+      <DependentUpon>Banear.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="privado\admin\Banear.aspx.vb">
+      <DependentUpon>Banear.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="privado\alumno\Alumno.aspx.designer.vb">
       <DependentUpon>Alumno.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Alumno.aspx.vb">
+    <Compile Include="privado\alumno\Alumno.aspx.vb">
       <DependentUpon>Alumno.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="ExportarTareas.aspx.designer.vb">
+    <Compile Include="privado\profesor\vadillo\ExportarTareas.aspx.designer.vb">
       <DependentUpon>ExportarTareas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ExportarTareas.aspx.vb">
+    <Compile Include="privado\profesor\vadillo\ExportarTareas.aspx.vb">
       <DependentUpon>ExportarTareas.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="ImportarEnDS.aspx.designer.vb">
+    <Compile Include="privado\profesor\vadillo\ImportarEnDS.aspx.designer.vb">
       <DependentUpon>ImportarEnDS.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ImportarEnDS.aspx.vb">
+    <Compile Include="privado\profesor\vadillo\ImportarEnDS.aspx.vb">
       <DependentUpon>ImportarEnDS.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="ImportarTareas.aspx.designer.vb">
+    <Compile Include="privado\profesor\vadillo\ImportarTareas.aspx.designer.vb">
       <DependentUpon>ImportarTareas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ImportarTareas.aspx.vb">
+    <Compile Include="privado\profesor\vadillo\ImportarTareas.aspx.vb">
       <DependentUpon>ImportarTareas.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="InsertarTarea.aspx.designer.vb">
+    <Compile Include="privado\profesor\InsertarTarea.aspx.designer.vb">
       <DependentUpon>InsertarTarea.aspx</DependentUpon>
     </Compile>
-    <Compile Include="InsertarTarea.aspx.vb">
+    <Compile Include="privado\profesor\InsertarTarea.aspx.vb">
       <DependentUpon>InsertarTarea.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="InstanciarTarea.aspx.designer.vb">
+    <Compile Include="privado\alumno\InstanciarTarea.aspx.designer.vb">
       <DependentUpon>InstanciarTarea.aspx</DependentUpon>
     </Compile>
-    <Compile Include="InstanciarTarea.aspx.vb">
+    <Compile Include="privado\alumno\InstanciarTarea.aspx.vb">
       <DependentUpon>InstanciarTarea.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -213,52 +223,52 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Profesor.aspx.designer.vb">
+    <Compile Include="privado\profesor\Profesor.aspx.designer.vb">
       <DependentUpon>Profesor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Profesor.aspx.vb">
+    <Compile Include="privado\profesor\Profesor.aspx.vb">
       <DependentUpon>Profesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Registro.aspx.designer.vb">
+    <Compile Include="publico\Registro.aspx.designer.vb">
       <DependentUpon>Registro.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Registro.aspx.vb">
+    <Compile Include="publico\Registro.aspx.vb">
       <DependentUpon>Registro.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Inicio.aspx.designer.vb">
+    <Compile Include="publico\Inicio.aspx.designer.vb">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Inicio.aspx.vb">
+    <Compile Include="publico\Inicio.aspx.vb">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="CambiarPassword.aspx.designer.vb">
+    <Compile Include="publico\CambiarPassword.aspx.designer.vb">
       <DependentUpon>CambiarPassword.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CambiarPassword.aspx.vb">
+    <Compile Include="publico\CambiarPassword.aspx.vb">
       <DependentUpon>CambiarPassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Confirmacion.aspx.designer.vb">
+    <Compile Include="publico\Confirmacion.aspx.designer.vb">
       <DependentUpon>Confirmacion.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Confirmacion.aspx.vb">
+    <Compile Include="publico\Confirmacion.aspx.vb">
       <DependentUpon>Confirmacion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TareasAlumno.aspx.designer.vb">
+    <Compile Include="privado\alumno\TareasAlumno.aspx.designer.vb">
       <DependentUpon>TareasAlumno.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TareasAlumno.aspx.vb">
+    <Compile Include="privado\alumno\TareasAlumno.aspx.vb">
       <DependentUpon>TareasAlumno.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="TareasProfesor.aspx.designer.vb">
+    <Compile Include="privado\profesor\TareasProfesor.aspx.designer.vb">
       <DependentUpon>TareasProfesor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TareasProfesor.aspx.vb">
+    <Compile Include="privado\profesor\TareasProfesor.aspx.vb">
       <DependentUpon>TareasProfesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
@@ -287,7 +297,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <Content Include="packages.config" />
-    <None Include="tareas.xsd">
+    <None Include="privado\profesor\vadillo\tareas.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Web.Debug.config">
@@ -297,6 +307,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

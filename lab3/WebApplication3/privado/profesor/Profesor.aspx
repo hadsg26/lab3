@@ -14,8 +14,8 @@
                 <Items>
                     <asp:MenuItem Text="Asignaturas" Value="Asignaturas"></asp:MenuItem>
                     <asp:MenuItem Text="Tareas" Value="Tareas" NavigateUrl="TareasProfesor.aspx"></asp:MenuItem>
-                    <asp:MenuItem NavigateUrl="~/ImportarTareas.aspx" Text="Importar v. XMLDocument" Value="Importar v. XMLDocument"></asp:MenuItem>
-                    <asp:MenuItem NavigateUrl="~/ExportarTareas.aspx" Text="Exportar" Value="Exportar"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/privado/profesor/vadillo/ImportarTareas.aspx" Text="Importar v. XMLDocument" Value="Importar v. XMLDocument"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/privado/profesor/vadillo/ExportarTareas.aspx" Text="Exportar" Value="Exportar"></asp:MenuItem>
                 </Items>
             </asp:Menu>
         </div>

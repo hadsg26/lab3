@@ -31,40 +31,41 @@ Public Class CambiarPassword
 
     Function enviarEmail(ByVal email As String, ByVal codigo As String) As String
         If (codigo <> "no") Then
-
-
             Try
+                Dim enlace As String
                 'Direccion de origen 
-                Dim from_address As New MailAddress("", "HADS GRUPO 26")
+                Dim from_address As New MailAddress("scavia002@ikasle.ehu.eus", "HADS GRUPO 26")
                 'Direccion de destino 
                 Dim to_address As New MailAddress(email)
                 'Password de la cuenta  
-                Dim from_pass As String = ""
+                Dim from_pass As String = "8mikxQ0WA"
                 'Objeto para el cliente smtp
                 Dim smtp As New SmtpClient
-            'Host en este caso el servidor de gmail
-            smtp.Host = "smtp.ehu.es"
-            'Puerto 
-            smtp.Port = 587
-            'SSL activado para que se manden correos de manera segura 
-            smtp.EnableSsl = True
-            'No usar los credenciales por defecto ya que si no no funciona
-            smtp.UseDefaultCredentials = False
-            'Credenciales 
-            smtp.Credentials = New System.Net.NetworkCredential(from_address.Address, from_pass)
-            'Creamos el mensaje con los  parametros de origen y destino 
-            Dim Message As New MailMessage(from_address, to_address)
-            'Añadimos el asunto' 
-            Message.Subject = "subject"
-            'Concatenamos el cuerpo del mensaje a la plantilla 
-            Message.Body = "<html><head></head><body> Tu codigo para cambiar la contraseña es el siguiente:" & codigo & "</body></html>"
-            'Definimos el cuerpo como html para poder escoger mejor como lo mandamos  
-            Message.IsBodyHtml = True
-            'Se envia el correo  
-            smtp.Send(Message)
-        Catch e As Exception
-            Return "El email no se ha podido enviar :("
-        End Try
+                'Host en este caso el servidor de gmail
+                smtp.Host = "smtp.ehu.es"
+                'Puerto 
+                smtp.Port = 587
+                'SSL activado para que se manden correos de manera segura 
+                smtp.EnableSsl = True
+                'No usar los credenciales por defecto ya que si no no funciona
+                smtp.UseDefaultCredentials = False
+                'Credenciales 
+                smtp.Credentials = New System.Net.NetworkCredential(from_address.Address, from_pass)
+                'Creamos el mensaje con los  parametros de origen y destino 
+                Dim Message As New MailMessage(from_address, to_address)
+                'Añadimos el asunto' 
+                Message.Subject = "Bienvenido a la aplicación"
+                'Concatenamos el cuerpo del mensaje a la plantilla 
+                Message.Body = "<html><head></head><body> Tu codigo para cambiar la contraseña es el siguiente:" & codigo & "</body></html>"
+                'Definimos el cuerpo como html para poder escoger mejor como lo mandamos  
+                Message.IsBodyHtml = True
+                'Se envia el correo  
+                smtp.Send(Message)
+            Catch e As Exception
+                MsgBox(e.Message)
+                MsgBox(e.StackTrace)
+                Return "El email no se ha podido enviar :("
+            End Try
             Return "Email enviado. Revisa tu bandeja de entrada"
         Else
             Return "El email no esta en la base datos, no te intentes colar, pillin"
