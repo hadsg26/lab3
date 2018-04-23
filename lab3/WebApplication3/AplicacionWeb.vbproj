@@ -131,6 +131,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="privado\admin\Banear.aspx" />
     <Content Include="privado\alumno\Alumno.aspx" />
     <Content Include="privado\profesor\vadillo\ExportarTareas.aspx" />
@@ -155,6 +156,9 @@
     <Content Include="XSLTFile.xsl" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="privado\admin\Banear.aspx.designer.vb">
       <DependentUpon>Banear.aspx</DependentUpon>
     </Compile>

@@ -14,11 +14,19 @@ Public Class WebForm2
     Protected Sub entrar_Click(sender As Object, e As EventArgs) Handles entrar.Click
         resultado.Text = acceder(email.Text, password.Text)
         If ((resultado.Text).Equals("SIA")) Then
+            Dim emailsAlumnos(50) As String
+            Application.Contents("numAlumnos") = Application.Contents("numAlumnos") + 1
+            Application.Contents("alumnos").add(email.Text)
             System.Web.Security.FormsAuthentication.SetAuthCookie("alumno", False)
             Session("email") = email.Text
+            Session("rol") = "alumno"
             Response.Redirect("../privado/alumno/Alumno.aspx")
         ElseIf (resultado.Text.Equals("SIP")) Then
+            Application.Contents("profesores").add(email.Text)
+            Application.Contents("numProfesores") = Application.Contents("numProfesores") + 1
             Session("email") = email.Text
+            Session("rol") = "profesor"
+
             If (email.Text = "vadillo@ehu.es") Then
                 System.Web.Security.FormsAuthentication.SetAuthCookie("vadillo", False)
                 Response.Redirect("../privado/profesor/Profesor.aspx")
@@ -53,6 +61,7 @@ Public Class WebForm2
                 If (estado <> 0) Then
                     If (VerifyMd5Hash(md5Hash, pass1, passDB)) Then
                         If (rol.Equals("Alumno")) Then
+
                             res = "SIA"
                         Else
                             res = "SIP"
