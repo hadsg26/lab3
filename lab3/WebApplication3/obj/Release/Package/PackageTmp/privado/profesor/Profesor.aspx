@@ -18,6 +18,7 @@
                     <asp:MenuItem Text="Tareas" Value="Tareas" NavigateUrl="TareasProfesor.aspx"></asp:MenuItem>
                     <asp:MenuItem NavigateUrl="~/privado/profesor/vadillo/ImportarTareas.aspx" Text="Importar v. XMLDocument" Value="Importar v. XMLDocument"></asp:MenuItem>
                     <asp:MenuItem NavigateUrl="~/privado/profesor/vadillo/ExportarTareas.aspx" Text="Exportar" Value="Exportar"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/privado/profesor/vadillo/Coordinador.aspx" Text="Horas medias " Value="Horas medias "></asp:MenuItem>
                 </Items>
             </asp:Menu>
             <asp:UpdatePanel ID="UpdatePanel1" runat="server">

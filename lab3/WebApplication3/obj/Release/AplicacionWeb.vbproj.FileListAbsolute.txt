@@ -86,3 +86,5 @@ C:\Users\Setgio\Documents\GitHub\labo3\lab3\WebApplication3\obj\Release\Aplicaci
 C:\Users\Setgio\Documents\GitHub\labo3\lab3\WebApplication3\obj\Release\WebApplication3.dll
 C:\Users\Setgio\Documents\GitHub\labo3\lab3\WebApplication3\obj\Release\WebApplication3.xml
 C:\Users\Setgio\Documents\GitHub\labo3\lab3\WebApplication3\obj\Release\WebApplication3.pdb
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\WebApplication3\bin\WebApplication3.XmlSerializers.dll
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\WebApplication3\obj\Release\WebApplication3.XmlSerializers.dll

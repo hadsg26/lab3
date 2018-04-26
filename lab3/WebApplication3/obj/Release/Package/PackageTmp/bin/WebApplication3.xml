@@ -746,6 +746,42 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:WebApplication3.WebForm6._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApplication3.WebForm6._DropDownList1">
+<summary>
+Control DropDownList1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApplication3.WebForm6._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApplication3.WebForm6._horas">
+<summary>
+Control horas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:WebApplication3.WebForm1._form1">
 <summary>
 Control form1.
@@ -1357,6 +1393,183 @@ Control Button1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member>
+<member name="T:WebApplication3.comprobar2.Matriculas">
+<remarks/>
+</member>
+<member name="M:WebApplication3.comprobar2.Matriculas.#ctor">
+<remarks/>
+</member>
+<member name="E:WebApplication3.comprobar2.Matriculas.comprobarCompleted">
+<remarks/>
+</member>
+<member name="M:WebApplication3.comprobar2.Matriculas.comprobar(System.String)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.comprobar2.Matriculas.comprobarAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.comprobar2.Matriculas.comprobarAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.comprobar2.Matriculas.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:WebApplication3.comprobar2.comprobarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:WebApplication3.comprobar2.comprobarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:WebApplication3.comprobar2.comprobarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:WebApplication3.FINALONLINE.serviciohoras">
+<remarks/>
+</member>
+<member name="M:WebApplication3.FINALONLINE.serviciohoras.#ctor">
+<remarks/>
+</member>
+<member name="E:WebApplication3.FINALONLINE.serviciohoras.GetDedicacionMediaCompleted">
+<remarks/>
+</member>
+<member name="M:WebApplication3.FINALONLINE.serviciohoras.GetDedicacionMedia(System.String)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.FINALONLINE.serviciohoras.GetDedicacionMediaAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.FINALONLINE.serviciohoras.GetDedicacionMediaAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.FINALONLINE.serviciohoras.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:WebApplication3.FINALONLINE.GetDedicacionMediaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:WebApplication3.FINALONLINE.GetDedicacionMediaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:WebApplication3.FINALONLINE.GetDedicacionMediaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:WebApplication3.FINAL.serviciohoras">
+<remarks/>
+</member>
+<member name="M:WebApplication3.FINAL.serviciohoras.#ctor">
+<remarks/>
+</member>
+<member name="E:WebApplication3.FINAL.serviciohoras.GetDedicacionMediaCompleted">
+<remarks/>
+</member>
+<member name="M:WebApplication3.FINAL.serviciohoras.GetDedicacionMedia(System.String)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.FINAL.serviciohoras.GetDedicacionMediaAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.FINAL.serviciohoras.GetDedicacionMediaAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.FINAL.serviciohoras.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:WebApplication3.FINAL.GetDedicacionMediaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:WebApplication3.FINAL.GetDedicacionMediaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:WebApplication3.FINAL.GetDedicacionMediaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:WebApplication3.localhost.Service1">
+<remarks/>
+</member>
+<member name="M:WebApplication3.localhost.Service1.#ctor">
+<remarks/>
+</member>
+<member name="E:WebApplication3.localhost.Service1.GetDataCompleted">
+<remarks/>
+</member>
+<member name="E:WebApplication3.localhost.Service1.GetDataUsingDataContractCompleted">
+<remarks/>
+</member>
+<member name="E:WebApplication3.localhost.Service1.GetDedicacionMediaCompleted">
+<remarks/>
+</member>
+<member name="M:WebApplication3.localhost.Service1.GetData(System.Int32,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.localhost.Service1.GetDataAsync(System.Int32,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.localhost.Service1.GetDataAsync(System.Int32,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.localhost.Service1.GetDataUsingDataContract(WebApplication3.localhost.CompositeType)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.localhost.Service1.GetDataUsingDataContractAsync(WebApplication3.localhost.CompositeType)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.localhost.Service1.GetDataUsingDataContractAsync(WebApplication3.localhost.CompositeType,System.Object)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.localhost.Service1.GetDedicacionMedia(System.String,System.Double@,System.Boolean@)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.localhost.Service1.GetDedicacionMediaAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.localhost.Service1.GetDedicacionMediaAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:WebApplication3.localhost.Service1.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:WebApplication3.localhost.CompositeType">
+<remarks/>
+</member>
+<member name="P:WebApplication3.localhost.CompositeType.BoolValue">
+<remarks/>
+</member>
+<member name="P:WebApplication3.localhost.CompositeType.BoolValueSpecified">
+<remarks/>
+</member>
+<member name="P:WebApplication3.localhost.CompositeType.StringValue">
+<remarks/>
+</member>
+<member name="T:WebApplication3.localhost.GetDataCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:WebApplication3.localhost.GetDataCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:WebApplication3.localhost.GetDataCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:WebApplication3.localhost.GetDataUsingDataContractCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:WebApplication3.localhost.GetDataUsingDataContractCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:WebApplication3.localhost.GetDataUsingDataContractCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:WebApplication3.localhost.GetDedicacionMediaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:WebApplication3.localhost.GetDedicacionMediaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:WebApplication3.localhost.GetDedicacionMediaCompletedEventArgs.GetDedicacionMediaResult">
+<remarks/>
+</member>
+<member name="P:WebApplication3.localhost.GetDedicacionMediaCompletedEventArgs.GetDedicacionMediaResultSpecified">
+<remarks/>
 </member>
 </members>
 </doc>

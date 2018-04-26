@@ -14,26 +14,37 @@ Public Class WebForm1
         Using md5Hash As MD5 = MD5.Create()
 
             Dim registro As New clases.Register
-            If registro.compararPass(password.Text, password2.Text) = True Then
-                Dim res As Boolean = False
-                Randomize()
-                Dim NumConf = CLng(Rnd() * 9000000) + 1000000
+            Dim servicio As New comprobar2.Matriculas
+            Dim incluido As String
+            incluido = servicio.comprobar(email.Text)
+            If incluido.Equals("SI") Then
+                If registro.compararPass(password.Text, password2.Text) = True Then
+                    Dim res As Boolean = False
+                    Randomize()
+                    Dim NumConf = CLng(Rnd() * 9000000) + 1000000
 
-                Dim [pass1] As String = password.Text
-                Dim hash As String = GetMdHash(md5Hash, pass1)
-                res = registro.registrar(email.Text, nombre.Text, apellidos.Text, NumConf, rol.Text, hash)
-                MsgBox(hash)
-                If (res) Then
-                    mensaje1.Text = "Estas registrado, ahora debes confirmar tu email. Revisa tu bandeja"
-                    HyperLink1.NavigateUrl = "https://hads1826.azurewebsites.net/Confirmacion.aspx?mbr=" & email.Text & "&numConf=" & NumConf
-                    HyperLink1.Visible = True
+                    Dim [pass1] As String = password.Text
+                    Dim hash As String = GetMdHash(md5Hash, pass1)
+                    res = registro.registrar(email.Text, nombre.Text, apellidos.Text, NumConf, rol.Text, hash)
+                    MsgBox(hash)
+                    If (res) Then
+                        mensaje1.Text = "Estas registrado, ahora debes confirmar tu email. Revisa tu bandeja"
+                        HyperLink1.NavigateUrl = "https://hads1826.azurewebsites.net/Confirmacion.aspx?mbr=" & email.Text & "&numConf=" & NumConf
+                        HyperLink1.Visible = True
+                    Else
+                        mensaje1.Text = "No te has podido registrar, mas suerte la proxima vez"
+                    End If
                 Else
-                    mensaje1.Text = "No te has podido registrar, mas suerte la proxima vez"
+                    mensaje1.Text = "Las contraseñas introducidas no coinciden, fijate mas."
+
                 End If
             Else
-                mensaje1.Text = "Las contraseñas introducidas no coinciden, fijate mas."
+                mensaje1.Text = "YOU SHALL NOT PASS"
 
             End If
+
+
+
         End Using
 
     End Sub

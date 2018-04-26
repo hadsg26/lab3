@@ -1,0 +1,13 @@
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\bin\servicioSoap.dll.config
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\bin\servicioSoap.dll
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\bin\servicioSoap.pdb
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\bin\servicioSoap.xml
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\obj\Release\servicioSoap.vbprojResolveAssemblyReference.cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\obj\Release\servicioSoap.Resources.resources
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\obj\Release\servicioSoap.vbproj.GenerateResource.Cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\obj\Release\servicioSoap.vbproj.CoreCompileInputs.cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\obj\Release\servicioSoap.dll
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\obj\Release\servicioSoap.xml
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicioSoap\obj\Release\servicioSoap.pdb

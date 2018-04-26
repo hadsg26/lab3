@@ -1,7 +1,18 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" UseMySettingsClassName="true">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="WebApplication3_comprobar2_Matriculas" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ehusw.es/jav/ServiciosWeb/comprobarmatricula.php</Value>
+    </Setting>
+    <Setting Name="WebApplication3_localhost_Service1" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:62651/Service1.svc</Value>
+    </Setting>
+    <Setting Name="WebApplication3_FINAL_serviciohoras" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:50335/serviciohoras.asmx</Value>
+    </Setting>
+    <Setting Name="WebApplication3_FINALONLINE_serviciohoras" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://serviciosoap20180426053553.azurewebsites.net/serviciohoras.asmx</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

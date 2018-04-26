@@ -1,0 +1,11 @@
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicio\bin\servicio.dll.config
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicio\bin\servicio.dll
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicio\bin\servicio.pdb
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicio\bin\servicio.xml
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicio\obj\Release\servicio.vbprojResolveAssemblyReference.cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicio\obj\Release\servicio.Resources.resources
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicio\obj\Release\servicio.vbproj.GenerateResource.Cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicio\obj\Release\servicio.vbproj.CoreCompileInputs.cache
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicio\obj\Release\servicio.dll
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicio\obj\Release\servicio.xml
+C:\Users\Setgio\Documents\GitHub\labo3\lab3\servicio\obj\Release\servicio.pdb
